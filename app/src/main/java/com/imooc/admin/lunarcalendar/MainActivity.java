@@ -45,6 +45,8 @@ public class MainActivity extends Activity {
             switch (msg.what) {
                 case 12345:
                     String[] getData = (String[]) msg.obj;
+                    /*各种类别
+                    * */
                     text_yinli.setText("阴历" + getData[0]);
                     text_wuxing.setText("五行: " + getData[1]);
                     text_chongsha.setText("冲煞: " + getData[2]);
