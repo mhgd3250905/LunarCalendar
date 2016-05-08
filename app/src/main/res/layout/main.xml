@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/openbackground">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/date"
+            android:textStyle="bold"
+            android:textSize="78dp"
+            android:textColor="@color/gold"
+            android:onClick="dateClick"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="2016-4-4"
+            android:shadowColor="#000000"
+            android:shadowRadius="10"
+            android:shadowDx="0"
+            android:shadowDy="30"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/gold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/yinli"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/gold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/wuxing"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/gold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/chongsha"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="彭祖百忌:"
+            android:id="@+id/baiji_title"
+            android:textSize="20dp"
+            android:textColor="@color/gold"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/gold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/baiji"
+            android:gravity="center"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="吉神宜趋:"
+            android:id="@+id/jishen_title"
+            android:textSize="20dp"
+            android:textColor="@color/gold"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/gold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/jishen"
+            android:gravity="center"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="宜:"
+            android:id="@+id/yi_title"
+            android:textSize="20dp"
+            android:textColor="@color/gold"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/gold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/yi"
+            android:gravity="center"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="凶神宜忌:"
+            android:id="@+id/xiongshen_title"
+            android:textSize="20dp"
+            android:textColor="@color/gold"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/gold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/xiongshen"
+            android:gravity="center"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="忌:"
+            android:id="@+id/ji_title"
+            android:textSize="20dp"
+            android:textColor="@color/gold"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/gold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/ji"
+            android:gravity="center"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</LinearLayout>
